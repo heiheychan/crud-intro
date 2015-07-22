@@ -1,0 +1,19 @@
+{
+  "name": "crud-intro",
+  "version": "0.0.0",
+  "homepage": "https://github.com/heiheychan/crud-intro",
+  "authors": [
+    "heiheychan"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

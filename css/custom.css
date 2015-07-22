@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	padding: 20px 100px 10px 100px;
+}
+
+h1 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.input_section {
+	background-color: whitesmoke;
+	padding: 30px;
+}
+
+.mainSelect {
+	height: 40px;
+	width: 120px;
+	font-size: 16px;
+}
+
+.mainSelect + button {
+	height: 40px;
+	width: 40px;
+}
+
+
+button.inputButtonStyle {
+	height: 40px;
+	width: 120px;
+	background-color: lightgreen;
+	border: none;
+	color: white;
+	border-radius: 4px;
+}
+
+input.inputBoxStyle {
+	height: 40px;
+	width: 200px;
+	padding-left: 10px;
+	margin-left: 20px;
+}
+
+.content {
+	margin-top: 30px;
+	padding: 0;
+}
+
+.listAllButton {
+	float: right;
+	height: 30px;
+	width: 80px;
+	color: white;
+	background-color: crimson;
+	border: none;
+	border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

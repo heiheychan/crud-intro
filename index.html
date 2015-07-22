@@ -1,14 +1,86 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>Crud API Menu</title>
+  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="js/application.js"></script>
-
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/custom.css" rel="stylesheet">
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/application.js"></script>
+  <script type="text/javascript" src="assets/sortable/jquery.tablesorter.min.js"></script> 
 </head>
-<body>
-</body>
+	<body>
+		<div class="wrapper">
+			<h1 class="col-lg-12">Crud API Menu</h1>
+			<div class="input_section col-lg-12">
+				<div class="btn-group col-lg-2">
+				  <button type="button" class="mainSelect btn btn-info">Read</button>
+				  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				    <span class="caret"></span>
+				    <span class="sr-only">Toggle Dropdown</span>
+				  </button>
+				  <ul class="dropdown-menu">
+				    <li><a href="#" class="read">Read</a></li>
+				    <li><a href="#" class="create">Create</a></li>
+				    <li><a href="#" class="update">Update</a></li>
+				    <li><a href="#" class="delete">Delete</a></li>
+				  </ul>
+				</div>
+				<div class="readInputGroup col-lg-10">
+					<input class="readID inputBoxStyle" placeholder="ID please!">
+					<button class="readIDButton inputButtonStyle">Search by ID</button>
+					<input class="readName inputBoxStyle" placeholder="Name please!">
+					<button class="readNameButton inputButtonStyle">Search by Name</button>
+				</div>
+				<div class="createInputGroup col-lg-10" style="display: none">
+					<input class="createName inputBoxStyle" placeholder="User Name">
+					<input class="createTitle inputBoxStyle" placeholder="Title">
+					<input class="createText inputBoxStyle" placeholder="Text">
+					<button class="createButton inputButtonStyle" style="margin-left: 30px; width: 200px;">Gogogo!</button>
+				</div>
+				<div class="putInputGroup col-lg-10" style="display: none">
+					<input class="putID inputBoxStyle" placeholder="Gimme the ID!">
+					<input class="putTitle inputBoxStyle" placeholder="Title">
+					<input class="putText inputBoxStyle" placeholder="Text">
+					<button class="putButton inputButtonStyle" style="margin-left: 30px; width: 200px;">Pivot!</button>
+				</div>
+				<div class="deleteInputGroup col-lg-10" style="display: none">
+					<input class="deleteID inputBoxStyle" placeholder="ID please!">
+					<button class="deleteButton inputButtonStyle" style="margin-left: 10px; width: 200px;">Why so mean?</button>
+				</div>
+				<!-- Different input box -->
+				<button class="listAllButton" style="margin-top:30px;">List All</button>
+			</div>
+			<div class="content col-lg-12">
+				<table class="table table-striped contentTable tablesorter">
+					<tr class="firstRow">
+						<th>User</th>
+						<th>Title</th>
+						<th>Text</th>
+						<th>ID</th>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
 </html>
+
+<!-- Create -->
+<input 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
